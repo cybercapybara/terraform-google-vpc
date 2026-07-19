@@ -9,7 +9,7 @@ build on top of it.
 
 ```hcl
 module "vpc" {
-  source = "github.com/cybercapybara/terraform-google-vpc"
+  source = "github.com/moveeeax/terraform-google-vpc"
 
   project_id              = var.project_id
   name                    = "prod-vpc"
